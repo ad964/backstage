@@ -24,4 +24,12 @@ spec:
   system: publisher-portal
   providesApis:
     - example-grpc-api
+    - login
+    - settlement
+    - profile
+    - dashboard
+    - transaction
+    - finance
+    - payment-methods
+    - faq
 
