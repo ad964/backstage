@@ -24,6 +24,7 @@ spec:
   system: publisher-portal
   providesApis:
     - example-grpc-api
+  consumesApi:
     - login
     - settlement
     - profile
