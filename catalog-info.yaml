@@ -33,7 +33,4 @@ spec:
     - finance
     - payment-methods
     - faq
-#  dependsOn:
-#    - publisher-portal-backend
-#    - publisher-portal-metadata-manager
 
