@@ -21,7 +21,5 @@ spec:
   lifecycle: production
   owner: Adas
   system: backoffice-crm
-  dependsOn:
-    - resource:default/publisher-portal-backend
   providesApis:
-    - indra-api
+    - API:default/indra-api
