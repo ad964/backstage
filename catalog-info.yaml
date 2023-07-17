@@ -41,6 +41,15 @@ spec:
   owner: Adas
   lifecycle: experimental
   system: publisher-portal
+  consumesApis:
+    - login
+    - settlement
+    - profile
+    - dashboard
+    - transaction
+    - finance
+    - payment-methods
+    - faq
   providesApis:
     - example-grpc-api
 
