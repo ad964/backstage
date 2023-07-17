@@ -22,6 +22,6 @@ spec:
   owner: Adas
   system: backoffice-crm
   dependsOn:
-    - resource:default/publisher-portal-be
+    - resource:default/publisher-portal-backend
   providesApis:
     - indra-api
