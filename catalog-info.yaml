@@ -30,12 +30,12 @@ relations:
       kind: system
       namespace: default
       name: Merchant Portal Client
-  - type: consumesApis
-    targetRef: api:publisher-portal-backend/login
-    target:
-      kind: api
-      namespace: default
-      name: login
+  # - type: consumesApis
+  #   targetRef: api:publisher-portal-backend/login
+  #   target:
+  #     kind: api
+  #     namespace: default
+  #     name: login
   - type: providesApi
     targetRef: api:default/example-grpc-api
     target:
