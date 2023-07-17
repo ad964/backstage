@@ -37,10 +37,10 @@ relations:
       namespace: default
       name: login
   - type: consumesApis
-    targetRef: api:publisher-portal-backend/settlement
+    targetRef: api:default/settlement
     target:
       kind: api
-      namespace: publisher-portal-backend
+      namespace: default
       name: settlement
   - type: providesApi
     targetRef: api:default/example-grpc-api
