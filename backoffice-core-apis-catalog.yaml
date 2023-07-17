@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: backoffice-api
+  description: Backoffice CRM's Core API List
+spec:
+  type: openapi
+  lifecycle: production
+  owner: Adas
+  system: backoffice-crm
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: BO Core API
+      license:
+        name: MIT
+    servers:
+      - url: http://backoffice-staging.cod.com/v1
+      - url: http://backoffice.cod.com/v1
+    paths:
+      /transaction-report:
+        get:
+          summary: List all transations data by settlement
