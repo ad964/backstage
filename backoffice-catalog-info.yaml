@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: backoffice-crm
+  description: Backoffice CRM System
+spec:
+  owner: Adas
+  domain: coda
