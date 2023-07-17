@@ -22,4 +22,4 @@ spec:
   owner: Adas
   system: backoffice-crm
   providesApis:
-    - API:default/indra-api
+    - api:default/indra-api
