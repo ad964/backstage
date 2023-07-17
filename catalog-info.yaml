@@ -31,17 +31,11 @@ relations:
       namespace: default
       name: Merchant Portal Client
   - type: consumesApis
-    targetRef: api:default/login
+    targetRef: api:publisher-portal-backend/login
     target:
       kind: api
       namespace: default
       name: login
-  - type: consumesApis
-    targetRef: api:default/settlement
-    target:
-      kind: api
-      namespace: default
-      name: settlement
   - type: providesApi
     targetRef: api:default/example-grpc-api
     target:
@@ -64,4 +58,6 @@ spec:
     - faq
   providesApis:
     - example-grpc-api
+  dependsOn:
+    - resource:default/publisher-portal-backend
 
